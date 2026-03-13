@@ -1,0 +1,319 @@
+/*Reset all*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Body*/
+body {
+    background: radial-gradient(ellipse at center, #0f2744 0%, #0a1520 70%);
+    min-height: 100vh;
+    font-family: arial, sans-serif;
+    color: #e0e0e0;
+}
+/*Header*/
+#header {
+    padding: 50px 20px 30px;
+    text-align: center;
+}
+/*header/H1*/
+#header h1 {
+    color: #f5a623;
+    font-size: 42px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+/*Header/P*/
+#header p {
+    font-size: 15px;
+    color: #aab4c0;
+}
+/*Nav Bar*/
+#nav {
+    text-align: center;
+    padding: 14px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    margin-bottom: 40px;
+}
+/*nav A*/
+#nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 0 6px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.07);
+    padding: 7px 18px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+/*Nav hover*/
+#nav a:hover {
+    background-color: #f5a623;
+    color: #0a1520;
+    border-color: #f5a623;
+}
+
+/*main container*/
+#main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+}
+
+/*Box styling*/
+.box {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 24px;
+    transition: border-color 0.25s, transform 0.25s;
+}
+
+/*box hover*/
+.box:hover {
+    border-color: #f5a623;
+    transform: translateY(-3px);
+}
+
+/*Box h2*/
+
+.box h2 {
+    color: #f5a623;
+    font-size: 20px;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/*box img*/
+.box img {
+    width: 100%;
+    margin-top: 12px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: opacity 0.2s, border-color 0.2s;
+}
+
+/*box img hover*/
+.box img:hover {
+    opacity: 0.9;
+    border-color: #f5a623;
+}
+
+/*tag styling*/
+.tag {
+    background-color: #f5a623;
+    color: #0a1520;
+    padding: 5px 14px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 20px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+/* tag hover*/
+.tag:hover {
+    background-color: white;
+}
+
+/*example label*/
+.example-label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    color: #f5a623;
+}
+
+/* a */
+a {
+    color: #f5a623;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+/* a hover*/
+a:hover {
+    color: white;
+}
+
+/*Links*/
+.view-link {
+    display: inline-block;
+    margin-top: 14px;
+    background-color: #f5a623;
+    color: #0a1520;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #f5a623;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+/*liks hover*/
+.view-link:hover {
+    background-color: transparent;
+    color: #f5a623;
+}
+
+/*ul*/
+ul {
+    padding-left: 20px;
+}
+
+/*li*/
+li {
+    margin-bottom: 6px;
+    color: #c0ccd8;
+}
+
+/*contact*/
+#contact {
+    max-width: 720px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+
+/*contact h2*/
+#contact h2 {
+    color: #f5a623;
+    font-size: 28px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/*contact > P */
+#contact > p {
+    color: #aab4c0;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+
+/*Contact form*/
+#contact-form {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/*form groups*/
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/*form group labels*/
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #f5a623;
+}
+
+/*form group input and textarea*/
+.form-group input,
+.form-group textarea {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    color: #e0e0e0;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    transition: border-color 0.2s;
+    outline: none;
+}
+
+/*form group input and texarea focus*/
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #f5a623;
+}
+
+/*form group textareas*/
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/*footer*/
+#footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    font-size: 12px;
+    color: #556677;
+}
+
+/*button*/
+button {
+    background-color: #f5a623;
+    color: #0a1520;
+    border: none;
+    padding: 9px 22px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, transform 0.1s;
+}
+
+/*button hover*/
+button:hover {
+    background-color: white;
+    transform: translateY(-1px);
+}
+
+/*input */
+input {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    color: #e0e0e0;
+    padding: 7px 12px;
+    font-size: 14px;
+}
+
+/*resume container*/
+        #resume-container {
+            max-width: 900px;
+            margin: 0 auto 60px;
+            padding: 0 20px;
+        }
+/* /*resume container h2 */
+        #resume-container h2 {
+            color: #f5a623;
+            font-size: 28px;
+            margin-bottom: 8px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+/*resume container p*/
+        #resume-container p {
+            color: #aab4c0;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+/*resume container p*/
+        #resume-frame {
+            width: 100%;
+            height: 80vh;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.04);
+        }
